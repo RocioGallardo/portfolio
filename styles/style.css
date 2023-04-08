@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Dosis', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+section {
+    height: 2000px;
+}
+
+header{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+header ul li {
+    list-style: none;
+}
+
+#container {
+    position: relative;
+    max-width: 100%;
+}
+
+#hi{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    
+}
+
+#img {
+    position: fixed;
+}
+
+#marco{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 100;
+    border: 50px solid #fff;
+}
+
+
+#paleta1>div:nth-child(1) {
+    background-color: #8B9D83;
+}
+
+#paleta1>div:nth-child(2) {
+    background-color: #6A7B76;
+}
+
+#paleta1>div:nth-child(3) {
+    background-color: #3A4E48;
+}
+
+#paleta1>div:nth-child(4) {
+    background-color: #040303;
+}
+
+#paleta1>div:nth-child(5) {
+    background-color: #B4656F;
+}
+
+
+#paleta1>div:nth-child(6) {
+    background-color: #823038;
+}
+
+#paleta1>div:nth-child(7) {
+    background-color: #fff;
+}
+
+
+/* 001514
+C2D076
+FFE1EA
+B4656F
+823038
+
+
+7B9E87
+EAD7D1
+CE4257
+9381FF
+1B2021
+5F758E
+6A7FDB
+
+040303
+3A4E48
+6A7B76
+8B9D83
+BEB0A7 */
